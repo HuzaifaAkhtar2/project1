@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/*  
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 15px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700
+
+## Colors
+
+- White: hsl(0, 0%, 100%)
+
+- Slate 300: hsl(212, 45%, 89%)
+- Slate 500: hsl(216, 15%, 48%)
+- Slate 900: hsl(218, 44%, 22%)
+
+- Mobile: 375px
+- Desktop: 1440px 
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding: 10px;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 0 0 0 black;
+    width: 250px;
+}
+
+body {
+    background-color: #d5e1ef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.img {
+    text-align: center;
+}
+
+.img img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.main-text {
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.sub-text {
+    color: hsl(216, 15%, 48%);
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
